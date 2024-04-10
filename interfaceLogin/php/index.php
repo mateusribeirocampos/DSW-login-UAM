@@ -1,3 +1,15 @@
+<?php
+include('conexao.php');
+
+$msg_erro = '';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    include('validacao.php');
+} else {
+    $msg_erro = 'Erro na requisição';
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,27 +25,24 @@
     </header>
 
     <main>
+        <h2>Login</h2>
         <div class="container">
-            <h2>Login</h2>
-            <form action="login.php" method="post">
+            <form action="" method="post">
                 <div class="form-grupo">
-                    <label for="email">Email</label>
+                    <label for="email">Email: </label>
                     <input type="email" name="email" id="email" required>
                 </div>
                 <div class="form-grupo">
-                    <label for="senha">Senha</label>
+                    <label for="senha">Senha: </label>
                     <input type="password" id="password" name="password" required>
                 </div>
                 <div>
                     <p>Ainda não tem cadastro? <a href="">Cadastra-se</a></p>
                 </div>
-                <button type="submit">Enviar</button>
+                <button type="submit">Entrar</button>
             </form>
         </div>
     </main>
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../js/validationLogin.js"></script>
 
     <footer>
         <p>Desenvolvimento de software<br> para Web&copy; 2024</p>

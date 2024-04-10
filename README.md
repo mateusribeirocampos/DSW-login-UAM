@@ -63,3 +63,5 @@ git push origin desafio.
 Acesse o fork do repositório DSW-login-UAM na sua conta do GitHub e solicite um Pull Request para o repositório do DSW-login-UAM
 
 Visite a página do Pull Request e aguarde a validação. Podemos discutir qualquer problema no [Discord](https://discord.com/).
+
+Algumas informações foram retiradas e modificadas do site dos [OsProgramadores](https://osprogramadores.com.br/).
