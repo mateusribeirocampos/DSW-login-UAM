@@ -1,13 +1,8 @@
 <?php
 include('conexao.php');
 
-$msg_erro = '';
+include('validacao.php');
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    include('validacao.php');
-} else {
-    $msg_erro = 'Erro na requisição';
-}
 ?>
 
 <!DOCTYPE html>

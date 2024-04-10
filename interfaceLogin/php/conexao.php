@@ -1,10 +1,12 @@
 <?php
-
-$servername = '127.0.0.1'; 
+$servername = '127.0.0.1';
 $username = 'root';
 $password = '';
 $dbname = 'login';
 
-// conexão
-$conexao = mysqli_connect($servername, $username, $password, $dbname)
-	or die('Erro na conexção ' . mysqli_connect_error());
+// conexão com banco de dados
+$mysqli = new mysqli($servername, $username, $password, $dbname);
+
+if($mysqli->connect_error) {
+    die('Erro na conexão com o banco de dados: ' . $mysqli->connect_error);
+}

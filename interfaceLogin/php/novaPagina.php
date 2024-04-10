@@ -1,6 +1,8 @@
 <?php
 
-if(!isset($_SESSION)) {session_start();}
+if (!isset($_SESSION)) {
+	session_start();
+}
 
 ?>
 <!DOCTYPE html>
@@ -11,6 +13,6 @@ if(!isset($_SESSION)) {session_start();}
     <title>Nova Página</title>
 </head>
 <body>
-    <h1>Bem vindo ao nova página, <?php echo $_SESSION['nome'];?></h1>
+    <h1>Bem vindo ao nova página, <?php echo $_SESSION['nome']; ?></h1>
 </body>
 </html>
