@@ -2,7 +2,8 @@
 
 Uma interface de login para autenticar usuários de forma segura e eficiente. Este projeto oferece uma solução elegante e fácil de usar para a autenticação de usuários em aplicativos e sistemas, garantindo segurança e praticidade
 
-**Instruções**
+## Instruções
+
 Leia o tutorial [sobre Git](https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/). A documentação oficial do Git em português está disponível no site do [Git](https://git-scm.com/).
 
 Crie sua conta no GitHub (ou use uma conta previamente criada, se já existir).
@@ -61,4 +62,4 @@ git push origin desafio.
 
 Acesse o fork do repositório DSW-login-UAM na sua conta do GitHub e solicite um Pull Request para o repositório do DSW-login-UAM
 
-Visite a página do Pull Request e aguarde a validação automática da sua solução.
+Visite a página do Pull Request e aguarde a validação. Podemos discutir qualquer problema no [Discord](https://discord.com/).
