@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    font-family: 'Tilt Neon', sans-serif;
+}
+h1{
+    padding: 20px;
+    font-size: 40px;
+}
+p{
+    padding: 10px;
+    font-size: 20px;
+}
+.container{
+    border: 1px solid #8f8e8e;
+    border-radius: 10px;
+    padding: 100px;
+    margin: 0 500px;
+    background-color: #ece2e2;
+}
