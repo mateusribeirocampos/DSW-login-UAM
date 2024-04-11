@@ -64,4 +64,4 @@ Acesse o fork do repositório DSW-login-UAM na sua conta do GitHub e solicite um
 
 Visite a página do Pull Request e aguarde a validação. Podemos discutir qualquer problema no [Discord](https://discord.com/).
 
-Algumas informações foram retiradas e modificadas do site dos [OsProgramadores](https://osprogramadores.com.br/).
+Algumas informações foram retiradas e modificadas do site dos [OsProgramadores](https://osprogramadores.com/).
