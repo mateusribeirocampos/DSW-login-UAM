@@ -50,5 +50,6 @@ include 'validacao.php';
     <footer>
         <p>Desenvolvimento de software<br> para Web&copy; 2024</p>
     </footer>
+    
 </body>
 </html>
