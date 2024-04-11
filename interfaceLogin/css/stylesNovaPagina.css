@@ -8,3 +8,23 @@ html{
     padding: 10px;
     text-align: center;
 }
+h1{
+    padding: 20px;
+    font-size: 40px;
+}
+button{
+    margin: 30px;
+    padding: 5px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #8f8e8e;
+}
+button a{
+    text-decoration: none;
+    color: #000;
+}
+button:hover{
+    background-color: #8f8e8e;
+    color: #f0f0f0;
+}
