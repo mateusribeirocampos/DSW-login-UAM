@@ -1,8 +1,6 @@
 <?php
-include('conexao.php');
-
-include('validacao.php');
-
+include 'conexao.php';
+include 'validacao.php';
 ?>
 
 <!DOCTYPE html>
@@ -22,19 +20,34 @@ include('validacao.php');
     <main>
         <h2>Login</h2>
         <div class="container">
+
+        <?php if(isset($msg_erro)): ?>
+            <p class="erro"><?php echo $msg_erro; ?></p>
+        <?php endif; ?>
+
             <form action="" method="post">
                 <div class="form-grupo">
                     <label for="email">Email: </label>
                     <input type="email" name="email" id="email" required>
+                    <?php if(isset($msg_erro)): ?>
+            <p class="erro"><?php echo $msg_erro; ?></p>
+        <?php endif; ?>
                 </div>
+
                 <div class="form-grupo">
                     <label for="senha">Senha: </label>
-                    <input type="password" id="password" name="password" required>
+                    <input type="password" id="senha" name="senha" required>
+                    <?php if(isset($msg_erro)): ?>
+            <p class="erro"><?php echo $msg_erro; ?></p>
+        <?php endif; ?>
                 </div>
+
                 <div>
                     <p>Ainda não tem cadastro? <a href="">Cadastra-se</a></p>
                 </div>
+
                 <button type="submit">Entrar</button>
+                
             </form>
         </div>
     </main>
