@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header('Location: novaPagina.php');
             exit(); // encerra o script
         } else {
-            echo 'Usuário ou senha inválidos';
+            $msg_erro = 'Usuário ou senha inválidos!';
         }
     }
 }

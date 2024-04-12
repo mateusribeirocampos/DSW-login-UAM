@@ -22,12 +22,12 @@ include 'validacao.php';
 
     <main>
         <h2>Login</h2>
-        <div class="container">
 
         <?php if(isset($msg_erro)): ?>
             <p class="erro"><?php echo $msg_erro; ?></p>
         <?php endif; ?>
 
+        <div class="container">
             <form action="" method="post">
                 <div class="form-grupo">
                     <label for="email">Email: </label>
